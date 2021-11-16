@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>追加</title>
+  </head>
+<!-- カレンダーを表示して日付を押せるようにしてもいいかも -->
+  <body>
+    <form action="./middle.php" method="get">
+      やったこと<br />
+      <input type="text" name="did" /><br />
+      
+      <!-- カテゴリー -->
+      <input type="checkbox" name="category" value="health">健康
+      <input type="checkbox" name="category" value="knowledge">知見
+      <input type="checkbox" name="category" value="learning">学習
+      <input type="checkbox" name="category" value="thinking">思考
+      <input type="checkbox" name="category" value="self">自己理解
+      <input type="checkbox" name="category" value="give">give<br />
+      
+      時間(分)<br />
+      <input type="text" name="time" /><br />
+      
+      日付<br />
+      <input type="date" name="date" /><br />
+ 
+      <input type="submit" value="追加する" />
+    </form>
+
+    
+  </body>

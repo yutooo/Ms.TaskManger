@@ -1,0 +1,29 @@
+やること
+
+
+行（did）がすでにあればそこに入力
+なければ作る
+
+create table students(
+-> id int,
+-> name varchar(60) //最後に「,」は不要
+->);
+
+
+
+テーブル（userID）があればそこに入力
+なければ作る
+
+
+
+
+
+//dstack{
+  //user
+  {
+    //ID
+    //did
+    //category
+    //time
+  }
+}
